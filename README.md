@@ -63,6 +63,10 @@ Path for Swagger is "{host}/swagger/ui/index"
  - F6 (Build Solution)
  - For running API, press F5
 	 - Open **http://localhost:4098/swagger/ui/index** in the browser
-	 - ![Swagger UI](https://onedrive.live.com/?authkey=!AJN4LnHUQcQV3Ho&cid=4DCDF838B8335701&id=4DCDF838B8335701!10876&parId=root&o=OneUp)
  - For running UTCs
 	 - If UTCs are not discovered, please delete **.vs** folder in solution directory and re-build the solution.
+
+## Terms
+
+ - **Batch**, each request with list of url to download is considered as Batch.
+ - **batch-id**, GUID representing unique id for every Batch
