@@ -13,8 +13,11 @@ namespace BatchWork.API
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        //stores the batchmodel with corresponding batch-id
         public static ConcurrentDictionary<Guid, BatchModel> BatchDictionary = new ConcurrentDictionary<Guid, BatchModel>();
+        //stores the incoming batch request in queued manner
         public static ConcurrentQueue<BatchModel> UrlQueue = new ConcurrentQueue<BatchModel>();
+        //stores the downloaded content from url
         public static ConcurrentBag<DownloadedContentModel> ContentBag = new ConcurrentBag<DownloadedContentModel>();
 
         protected void Application_Start()

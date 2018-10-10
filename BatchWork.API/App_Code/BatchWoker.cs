@@ -90,6 +90,7 @@ namespace BatchWork.App_Code
             }
         }
 
+        //perform download request
         public static void ExecuteDownloadRequest(RequestModel request)
         {
             try
@@ -120,6 +121,7 @@ namespace BatchWork.App_Code
             }
         }
 
+        //get batch-status on the basis of batch-id
         public static StatusEnum GetBatchStatus(string batchId)
         {
             try
@@ -135,6 +137,7 @@ namespace BatchWork.App_Code
             }
         }
 
+        //get status of all batches
         public static Dictionary<Guid, StatusEnum> GetAllBatchStatus()
         {
             try

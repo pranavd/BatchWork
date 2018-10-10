@@ -12,7 +12,7 @@ using BatchWork.API.Models;
 
 namespace BatchWork.Controllers
 {
-    [RoutePrefix("api/download")]
+    [RoutePrefix("api")]
     public class DownloadController : ApiController
     {
         /// <summary>
@@ -26,6 +26,7 @@ namespace BatchWork.Controllers
         {
             try
             {
+                //check for valid url
                 urls.ToList().ForEach(url =>
                 {
                     if (!Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
