@@ -38,4 +38,4 @@ Path for Swagger is "{host}/swagger/ui/index"
 		 - **BatchModel**, model class for storing batch request with corresponding list of url
 		 - **DownloadedContentModel**, model class for storing downloaded content from url
 		 - **RequestModel**, model class for incoming url
-		 -<a name="batch-status">**StatusEnum**</a>, Enum which denotes the batch-status
+		 - <a href ="#" name="batch-status">**StatusEnum**</a>, Enum which denotes the batch-status
