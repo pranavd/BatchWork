@@ -66,7 +66,7 @@ Path for Swagger is "{host}/swagger/ui/index"
  - For running UTCs
 	 - If UTCs are not discovered, please delete **.vs** folder in solution directory and re-build the solution.
 
-## Terms
+## Glossary
 
  - **Batch**, each request with list of url to download is considered as Batch.
  - **batch-id**, GUID representing unique id for every Batch
