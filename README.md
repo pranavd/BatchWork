@@ -15,7 +15,7 @@ It has two endpoints, one for submitting batch and second for getting it's statu
 
 # Project Structure
 
-Solution is divided into two projects. **BatchWork.API** which is rest API and **BatchWork.Test** which is test project.
+Solution is divided into two projects. **BatchWork.API** which is REST API and **BatchWork.Test** which is test project.
 **Swagger** is also configured to test API from browser with the help of **SwashBuckle** library.
 Path for Swagger is "{host}/swagger/ui/index" 
 
